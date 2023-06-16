@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.errorMessage {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.errorIcon {
+  color: red;
+  font-size: 18px;
+  margin-left: 5px;
+}
+

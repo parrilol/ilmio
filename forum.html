@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_archivio.css">
+  <title>Archivio</title>
+</head>
+<body>
+  <header>
+    <h1>Archivio delle Mie Cose</h1>
+  </header>
+
+  <main>
+    <section id="item-section">
+      <h2>I Miei Oggetti</h2>
+      <ul id="item-list">
+        <!-- Aggiungi qui il codice HTML per visualizzare i tuoi oggetti -->
+      </ul>
+    </section>
+
+    <section id="add-item-section">
+      <h3>Aggiungi un Nuovo Oggetto</h3>
+      <form onsubmit="addItem(event)">
+        <input type="text" id="item-name" placeholder="Nome Oggetto" required>
+        <textarea id="item-description" placeholder="Descrizione Oggetto" required></textarea>
+        <button type="submit">Aggiungi</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
